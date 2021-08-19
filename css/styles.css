@@ -1,0 +1,109 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	border-bottom: solid #F4DFD0;
+	font-weight: bolder;
+}
+
+body{
+	background-color: #f8ccce;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/*Header*/
+header{
+	background-color: #CDBBA7;
+	padding: 18px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index:1;
+}
+
+nav{
+	display: inline-block;
+	padding: 1px;
+}
+
+.logo{
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top: 12px;
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/*main*/
+main{
+	margin-top: 14vh;
+	margin-bottom: 16vh;
+}
+
+p{
+	font-size: 0.8em;
+}
+
+/*footer*/
+
+footer{
+	width: 100%;
+	background-color: #CDBBA7;
+	position: fixed;
+	bottom: 0px;
+	padding: 10px;
+}
+
+.footer__redes-sociales{
+	margin: auto;
+	text-align: center;
+}
+
+.footer__redes-sociales li{
+	margin-right: 10vw;
+	display: inline-block;
+	position: relative;
+	left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,316 @@
+/*index.html*/
+
+
+
+main{
+}
+
+.section-padding{
+	padding: 22px;
+}
+
+/*Presentacion*/
+
+
+.presentacion__texto{
+	font-size: 24px;
+	padding: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.presentacion__texto h1{
+	margin-bottom: 20px;
+}
+
+.presentacion__texto p{
+	font-size: 0.7em;
+}
+
+
+.presentacion__imagen {
+	width: 100%;
+	display: inline-block;
+}
+
+/*Clip path*/
+.presentacion__imagen img{
+	width: 100%;
+	background-color: #FFE194;
+	clip-path: circle(40% at 50% 50%);
+}
+
+
+
+/*Historia*/
+
+.historia{
+	margin-top: 4%;
+}
+
+.historia__item{
+	background-color: #7eba78;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 17px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.historia__item--important{
+	background-color: #7eba78;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 17px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+
+.historia__item:hover, .historia__item--important:hover,{
+background-color: #FFE194;
+}
+
+/*Estudio*/
+.estudio__video{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+}
+
+.estudio__video video{
+width: 100%;
+border-radius: 17px;
+}
+
+
+/*********************/
+/*Media Queries MI HISTORIA */
+@media only screen and (min-width: 992px) {
+
+	/*Presentacion*/
+	.presentacion__texto{
+		width: 50%;
+		position: relative;
+		bottom: 80px;
+		font-size: 26px;
+	}
+
+	.presentacion__imagen{
+		width: 40%;
+		display: inline-block;
+	}
+
+	/*Historia*/
+	.historia__item, .historia__item--important{
+		width: 24%;
+	}
+	
+}
+
+
+/***************************************************/
+/*miTrabajo*/
+
+.mitrabajo__imagen {
+	width: 100%;
+	display: inline-block;
+}
+
+.mitrabajo__imagen img{
+	width: 100%;
+	background-color: #FFE194;
+	clip-path: circle(30% at 50% 50%);
+}
+
+/*Mi trabajo a lo largo de mi carrera*/
+
+.trabajo{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.trabajo__item1{
+	background-color: #FFF5EA;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+
+}
+
+.inspirando__imagen img{
+	width: 100%;
+	float: center;
+	padding: 20px;
+}
+
+
+.trabajo__item2{
+	background-color: #835858;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+
+}
+
+.trabajo__item3{
+	background-color: #AF8BAF;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+
+}
+
+.trabajo__item4{
+	background-color: #DEDDFA;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+
+}
+
+.trabajo__item:hover, .trabajo__item--important:hover,{
+background-color: #FFE194;
+}
+
+/*Estudio*/
+.estudio__video{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+}
+
+.estudio__video video{
+width: 100%;
+border-radius: 17px;
+}
+
+
+/*********************/
+/*Media Queries MI TRABAJO */
+@media only screen and (min-width: 992px) {
+
+	/*Presentacion*/
+	.presentacion__texto{
+		width: 50%;
+		position: relative;
+		bottom: 80px;
+		font-size: 26px;
+	}
+
+	.mitrabajo__imagen{
+		width: 40%;
+		display: inline-block;
+	}
+
+}
+
+/***************************************************/
+/*Sobremi*/
+
+.sobremi__imagen{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+}
+
+.sobremi__imagen img{
+width: 100%;
+border-radius: 17px;
+}
+
+.sobremi{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.sobremi__item1{
+	background-color: #A278B5;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+
+}
+
+.sobremi__imagen img{
+	width: 100%;
+	float: center;
+	padding: 20px;
+}
+
+
+.sobremi__item2{
+	background-color: #BBDED6;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+
+}
+
+.sobremi__item3{
+	background-color: #AF8BAF;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+
+}
+
+.sobremi__item4{
+	background-color: #DEDDFA;
+	margin-bottom: 18px;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-weight: bolder;
+
+}
+
+.sobremi__item:hover, .sobremi__item--important:hover,{
+background-color: #FFE194;
+}
+
+/*Estudio*/
+.estudio__video{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+}
+
+.estudio__video video{
+width: 100%;
+border-radius: 17px;
+}
+
+
+
+
+
+
+
+
